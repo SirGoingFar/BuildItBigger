@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/color_black"
+    tools:context="com.eemf.sirgoingfar.jokedisplay.JokeDisplayActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/dimen_10dp"
+        android:text="@string/joke_from_the_joke_source"
+        android:textSize="@dimen/text_20sp"
+        android:textStyle="bold"
+        android:textColor="@color/color_white"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_1dp"
+        android:background="@color/color_white"
+        android:layout_marginTop="@dimen/dimen_2dp"
+        android:layout_marginBottom="@dimen/dimen_2dp"/>
+
+    <TextView
+        android:id="@+id/tv_joke_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="@dimen/dimen_10dp"
+        android:text="@string/joke_sample"
+        android:textSize="@dimen/text_16sp"
+        android:textColor="@color/color_white"/>
+
+</LinearLayout>

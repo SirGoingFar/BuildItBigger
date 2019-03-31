@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">jokedisplay</string>
+    <string name="joke_from_the_joke_source">Joke from the Joke Source</string>
+    <string name="joke_sample">Joke sample</string>
+</resources>
