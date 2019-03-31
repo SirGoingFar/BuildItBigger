@@ -1,4 +1,4 @@
-package com.eemf.sirgoingfar.a4410_exercise_solution_setupunittesting;
+package com.udacity.gradle.builditbigger;
 
 import org.junit.Assert;
 import org.junit.Before;
